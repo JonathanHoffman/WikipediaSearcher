@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Searcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+      <div class="background">
+        <div class="title text-center">
+          <h1>Wikipedia Viewer</h1>
+        </div>
+        <div class="inputs">
+          <!-- Search bar using Bootstrap Input Group-->
+          <div class=form-group>
+            <div class="input-group">
+              <input id="searchBar" type="text" class="form-control" placeholder="Search For...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="search-btn">Search</button>
+                <button class="btn btn-default" type="button" id="random-btn">random</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="results">
+          <!-- list of results generated and added to this div by js -->
+        </div>
+        <hr>
+        <div class="footer">
+        <p class='text-center'>Made with ❤️ by <a href="https://jonathanhoffman.codes/">Jonathan Hoffman</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
